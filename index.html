@@ -8,8 +8,8 @@
     <title> Venerion </title>
 </head>
 <body>
-    <div class="absolute w-full bg-transparent">
-        <nav class="relative mx-auto px-4 py-8 max-w-screen-xl text-lg font-medium text-white bg-transparent antialiased">
+    <div class="absolute w-full bg-transparent z-10">
+        <nav class="relative mx-auto px-4 sm:px-8 lg:px-16 py-8 max-w-screen-xl text-lg font-medium text-white bg-transparent antialiased">
             <div class="flex items-center justify-between md:max-w-7xl mx-auto">
                 <!-- Logo -->
                 <div class="">
@@ -32,7 +32,7 @@
             </div>
             <!-- burger items -->
             <div class="md:hidden">
-                <div id="menu" class="flex-col items-center py-8 space-y-8 bg-opacity-50 bg-black w-auto left-0 right-0 hidden absolute z-10">
+                <div id="menu" class="flex-col items-center py-8 space-y-8 bg-opacity-90 bg-black w-auto left-0 right-0 hidden absolute z-10">
                     <a href="" class="hover:underline">Projects</a>
                     <a href="" class="hover:underline">Company</a>
                     <a href="" class="hover:underline">Contact</a>
@@ -40,14 +40,160 @@
             </div>
         </nav>
     </div>
-    <section class="w-full h-[600px]">
-        <div class="absolute text-[52px] text-white font-light antialiased top-36 left-8">Drive innovation with our RF technology</div>   
-        <img src="assets/bg-venerion.png" class="object-cover w-full h-full" alt="venerion-bg" />
+
+    <!-- Hero section -->
+    <section class="relative w-full h-[600px]">
+        <img src="assets/bg-venerion.png" class="object-cover w-full h-full absolute" alt="venerion-bg" />
+        <section class="relative pt-[200px] sm:pt-[260px] w-full">
+            <!-- container for the whole content -->
+            <div class=" mx-auto max-w-7xl px-4 sm:px-8 lg:px-16">
+                <p class="text-4xl lg:text-5xl font-light antialiased text-white max-w-sm lg:max-w-lg">
+                    Drive innovation with our RF technology
+                </p>
+            </div>
+        </section>
     </section>
 
 
 
-    <p class="text-3xl text-blue-800"> Hello world</p>
+
+
+
+    <!-- Section 1 -->
+    <section class="relative py-12 overflow-hidden sm:py-16 lg:mt-10">
+        <!-- container for the whole content -->
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <!-- grid layout -->
+            <div class="grid items-center grid-cols-1 lg:grid-cols-2">
+                <div class="px-8 text-center lg:text-left xl:pr-16 md:max-w-2xl md:mx-auto xl:max-w-none">
+                    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">
+                        RF Solutions for Automotive Innovation
+                    </h2>
+                    <p class="mt-6 text-lg font-normal text-gray-600">
+                        At Venerion we specialize in delivering cutting-edge RF solutions for the automotive industry. Our team of experts has a deep understanding of the unique challenges facing the automotive industry, and we've developed advanced RF technology to help automakers overcome those challenges.
+                    </p>
+                    <a href="">
+                        <button class="hover:bg-gray-700 mt-6 inline-flex  px-5 py-3 bg-gray-900 rounded-xl">
+                            <p class="text-base font-bold antialiased text-white">Projects -></p>
+                        </button>
+                    </a>
+                </div>
+                <div class="relative mt-8 sm:mt-12 lg:max-w-2xl lg:mx-auto xl:max-w-none xl:mt-0 md:max-w-2xl md:mx-auto">
+                    <img class="rounded-[2rem]" src="assets/projects.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="relative py-12 overflow-hidden sm:py-16 lg:mt-10">
+        <!-- container for the whole content -->
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <!-- grid layout -->
+            <div class="flex flex-col-reverse lg:grid items-center lg:grid-cols-2">
+
+                <div class="relative mt-8 sm:mt-12 lg:max-w-2xl lg:mx-auto xl:max-w-none xl:mt-0 md:max-w-2xl md:mx-auto">
+                    <img class="rounded-[2rem]" src="assets/company.jpg">
+                </div>
+                <div class="px-8 text-center lg:text-left xl:pl-16 md:max-w-2xl md:mx-auto xl:max-w-none">
+                    <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">
+                        About Venerion
+                    </h2>
+                    <p class="mt-6 text-lg font-normal text-gray-600">
+                        We deliver cutting-edge RF solutions for the automotive industry. Our team of experts provides comprehensive support and drives innovation through advanced RF technology. </p>
+                    <a href="">
+                        <button class="hover:bg-gray-700 mt-6 inline-flex  px-5 py-3 bg-gray-900 rounded-xl">
+                            <p class="text-base font-bold antialiased text-white">Company -></p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="py-10 bg-white sm:py-16 lg:py-24">
+        <div class="max-w-lg sm:max-w-xl mx-auto text-center pb-24">
+            <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Our services</h2>
+        </div>
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-24 lg:grid-cols-3 lg:gap-y-16">
+                <!-- USP item -->
+                <div>
+                    <div class="relative flex items-center justify-start mx-auto">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" rx="24" fill="#F1F6F1" />
+                            <path d="M58.4 60C58.9601 60 59.2401 60 59.454 59.891C59.6422 59.7951 59.7951 59.6422 59.891 59.454C60 59.2401 60 58.9601 60 58.4V37.6C60 37.0399 60 36.7599 59.891 36.546C59.7951 36.3579 59.6422 36.2049 59.454 36.109C59.2401 36 58.9601 36 58.4 36L53.6 36C53.0399 36 52.7599 36 52.546 36.109C52.3578 36.2049 52.2049 36.3578 52.109 36.546C52 36.7599 52 37.0399 52 37.6V42.4C52 42.9601 52 43.2401 51.891 43.454C51.7951 43.6422 51.6422 43.7951 51.454 43.891C51.2401 44 50.9601 44 50.4 44H45.6C45.0399 44 44.7599 44 44.546 44.109C44.3578 44.2049 44.2049 44.3578 44.109 44.546C44 44.7599 44 45.0399 44 45.6V50.4C44 50.9601 44 51.2401 43.891 51.454C43.7951 51.6422 43.6422 51.7951 43.454 51.891C43.2401 52 42.9601 52 42.4 52H37.6C37.0399 52 36.7599 52 36.546 52.109C36.3578 52.2049 36.2049 52.3578 36.109 52.546C36 52.7599 36 53.0399 36 53.6V58.4C36 58.9601 36 59.2401 36.109 59.454C36.2049 59.6421 36.3578 59.7951 36.546 59.891C36.7599 60 37.0399 60 37.6 60L58.4 60Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M36 29.6C36 29.0399 36 28.7599 36.109 28.546C36.2049 28.3578 36.3578 28.2049 36.546 28.109C36.7599 28 37.0399 28 37.6 28H42.4C42.9601 28 43.2401 28 43.454 28.109C43.6422 28.2049 43.7951 28.3578 43.891 28.546C44 28.7599 44 29.0399 44 29.6V34.4C44 34.9601 44 35.2401 43.891 35.454C43.7951 35.6422 43.6422 35.7951 43.454 35.891C43.2401 36 42.9601 36 42.4 36H37.6C37.0399 36 36.7599 36 36.546 35.891C36.3578 35.7951 36.2049 35.6422 36.109 35.454C36 35.2401 36 34.9601 36 34.4V29.6Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M22 41.6C22 41.0399 22 40.7599 22.109 40.546C22.2049 40.3578 22.3578 40.2049 22.546 40.109C22.7599 40 23.0399 40 23.6 40H28.4C28.9601 40 29.2401 40 29.454 40.109C29.6422 40.2049 29.7951 40.3578 29.891 40.546C30 40.7599 30 41.0399 30 41.6V46.4C30 46.9601 30 47.2401 29.891 47.454C29.7951 47.6422 29.6422 47.7951 29.454 47.891C29.2401 48 28.9601 48 28.4 48H23.6C23.0399 48 22.7599 48 22.546 47.891C22.3578 47.7951 22.2049 47.6422 22.109 47.454C22 47.2401 22 46.9601 22 46.4V41.6Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20 21.6C20 21.0399 20 20.7599 20.109 20.546C20.2049 20.3578 20.3578 20.2049 20.546 20.109C20.7599 20 21.0399 20 21.6 20H26.4C26.9601 20 27.2401 20 27.454 20.109C27.6422 20.2049 27.7951 20.3578 27.891 20.546C28 20.7599 28 21.0399 28 21.6V26.4C28 26.9601 28 27.2401 27.891 27.454C27.7951 27.6422 27.6422 27.7951 27.454 27.891C27.2401 28 26.9601 28 26.4 28H21.6C21.0399 28 20.7599 28 20.546 27.891C20.3578 27.7951 20.2049 27.6422 20.109 27.454C20 27.2401 20 26.9601 20 26.4V21.6Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-gray-900">Engineering Consultancy</h3>
+                    <p class="mt-3 text-base text-gray-600">With deep expertise in both the RF and automotive industries, we take a collaborative approach to problem-solving and provide comprehensive support throughout the development process.</p>
+                </div>
+
+                <!-- USP item -->
+                <div>
+                    <div class="relative flex items-center justify-start mx-auto">
+                        <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.333252" width="80" height="80" rx="24" fill="#F1F6F1" />
+                            <path d="M38.3333 25H52.9333C55.1735 25 56.2936 25 57.1492 25.436C57.9019 25.8195 58.5138 26.4314 58.8973 27.184C59.3333 28.0397 59.3333 29.1598 59.3333 31.4V34C59.3333 35.8638 59.3333 36.7957 59.0288 37.5307C58.6228 38.5108 57.8441 39.2895 56.864 39.6955C56.1289 40 55.197 40 53.3333 40M42.3333 55H27.7333C25.493 55 24.3729 55 23.5173 54.564C22.7646 54.1805 22.1527 53.5686 21.7692 52.816C21.3333 51.9603 21.3333 50.8402 21.3333 48.6V46C21.3333 44.1362 21.3333 43.2044 21.6377 42.4693C22.0437 41.4892 22.8224 40.7105 23.8025 40.3045C24.5376 40 25.4695 40 27.3333 40M36.9333 45H43.7333C44.2933 45 44.5733 45 44.7872 44.891C44.9754 44.7951 45.1284 44.6422 45.2243 44.454C45.3333 44.2401 45.3333 43.9601 45.3333 43.4V36.6C45.3333 36.0399 45.3333 35.7599 45.2243 35.546C45.1284 35.3578 44.9754 35.2049 44.7872 35.109C44.5733 35 44.2933 35 43.7333 35H36.9333C36.3732 35 36.0932 35 35.8793 35.109C35.6911 35.2049 35.5381 35.3578 35.4422 35.546C35.3333 35.7599 35.3333 36.0399 35.3333 36.6V43.4C35.3333 43.9601 35.3333 44.2401 35.4422 44.454C35.5381 44.6422 35.6911 44.7951 35.8793 44.891C36.0932 45 36.3732 45 36.9333 45ZM51.9333 60H58.7333C59.2933 60 59.5733 60 59.7872 59.891C59.9754 59.7951 60.1284 59.6422 60.2243 59.454C60.3333 59.2401 60.3333 58.9601 60.3333 58.4V51.6C60.3333 51.0399 60.3333 50.7599 60.2243 50.546C60.1284 50.3578 59.9754 50.2049 59.7872 50.109C59.5733 50 59.2933 50 58.7333 50H51.9333C51.3732 50 51.0932 50 50.8793 50.109C50.6911 50.2049 50.5381 50.3578 50.4422 50.546C50.3333 50.7599 50.3333 51.0399 50.3333 51.6V58.4C50.3333 58.9601 50.3333 59.2401 50.4422 59.454C50.5381 59.6422 50.6911 59.7951 50.8793 59.891C51.0932 60 51.3732 60 51.9333 60ZM21.9333 30H28.7333C29.2933 30 29.5733 30 29.7872 29.891C29.9754 29.7951 30.1284 29.6422 30.2243 29.454C30.3333 29.2401 30.3333 28.9601 30.3333 28.4V21.6C30.3333 21.0399 30.3333 20.7599 30.2243 20.546C30.1284 20.3578 29.9754 20.2049 29.7872 20.109C29.5733 20 29.2933 20 28.7333 20H21.9333C21.3732 20 21.0932 20 20.8793 20.109C20.6911 20.2049 20.5381 20.3578 20.4422 20.546C20.3333 20.7599 20.3333 21.0399 20.3333 21.6V28.4C20.3333 28.9601 20.3333 29.2401 20.4422 29.454C20.5381 29.6422 20.6911 29.7951 20.8793 29.891C21.0932 30 21.3732 30 21.9333 30Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-gray-900">Algorithm Development</h3>
+                    <p class="mt-3 text-base text-gray-600">With expertise in signal processing and optimization, we develop customized algorithms that meet your requirements and undergo rigorous testing to ensure optimal performance.</p>
+                </div>
+
+                <!-- USP item -->
+                <div>
+                    <div class="relative flex items-center justify-start mx-auto">
+                        <svg width="81" height="80" viewBox="0 0 81 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0.666748" width="80" height="80" rx="24" fill="#F1F6F1" />
+                            <path d="M34.6667 20V24M46.6667 20V24M34.6667 56V60M46.6667 56V60M56.6667 34H60.6667M56.6667 44H60.6667M20.6667 34H24.6667M20.6667 44H24.6667M34.2667 56H47.0667C50.4271 56 52.1072 56 53.3907 55.346C54.5197 54.7708 55.4375 53.8529 56.0128 52.7239C56.6667 51.4405 56.6667 49.7603 56.6667 46.4V33.6C56.6667 30.2397 56.6667 28.5595 56.0128 27.2761C55.4375 26.1471 54.5197 25.2292 53.3907 24.654C52.1072 24 50.4271 24 47.0667 24H34.2667C30.9064 24 29.2263 24 27.9428 24.654C26.8138 25.2292 25.8959 26.1471 25.3207 27.2761C24.6667 28.5595 24.6667 30.2397 24.6667 33.6V46.4C24.6667 49.7603 24.6667 51.4405 25.3207 52.7239C25.8959 53.8529 26.8138 54.7708 27.9428 55.346C29.2263 56 30.9064 56 34.2667 56ZM37.8667 46H43.4667C44.5869 46 45.1469 46 45.5747 45.782C45.9511 45.5903 46.257 45.2843 46.4488 44.908C46.6667 44.4802 46.6667 43.9201 46.6667 42.8V37.2C46.6667 36.0799 46.6667 35.5198 46.4488 35.092C46.257 34.7157 45.9511 34.4097 45.5747 34.218C45.1469 34 44.5869 34 43.4667 34H37.8667C36.7466 34 36.1866 34 35.7588 34.218C35.3824 34.4097 35.0765 34.7157 34.8847 35.092C34.6667 35.5198 34.6667 36.0799 34.6667 37.2V42.8C34.6667 43.9201 34.6667 44.4802 34.8847 44.908C35.0765 45.2843 35.3824 45.5903 35.7588 45.782C36.1866 46 36.7466 46 37.8667 46Z" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3 class="mt-6 text-lg font-semibold text-gray-900">PCB and Antenna Design</h3>
+                    <p class="mt-3 text-base text-gray-600">Our customized PCB and antenna designs for RF in automotive offer optimization of performance, size, and cost. We provide expertise in RF system design and integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-gray-50">
+        <div class="w-full xl:container mx-auto p-4 py-8 md:px-6 ">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="" class="flex items-center mb-8 sm:mb-0">
+                    <img src="assets/venerion-logo-green.png" class="h-6 mr-3" alt="Flowbite Logo" />
+                    
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6">Company</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="mr-4 hover:underline md:mr-6 ">Imprint</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Venerion GmbH</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+    
+    
     <script>
         const menuBtn = document.getElementById('menu-btn');
         const nav = document.getElementById('menu');
