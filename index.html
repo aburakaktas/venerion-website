@@ -65,7 +65,7 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <!-- grid layout -->
             <div class="grid items-center grid-cols-1 lg:grid-cols-2">
-                <div class="px-8 text-center lg:text-left xl:pr-16 md:max-w-2xl md:mx-auto xl:max-w-none">
+                <div class="sm:px-8 text-left sm:text-center lg:text-left xl:pr-16 md:max-w-2xl md:mx-auto xl:max-w-none">
                     <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">
                         RF Solutions for Automotive Innovation
                     </h2>
@@ -95,7 +95,7 @@
                 <div class="relative mt-8 sm:mt-12 lg:max-w-2xl lg:mx-auto xl:max-w-none xl:mt-0 md:max-w-2xl md:mx-auto">
                     <img class="rounded-[2rem]" src="assets/company.jpg">
                 </div>
-                <div class="px-8 text-center lg:text-left xl:pl-16 md:max-w-2xl md:mx-auto xl:max-w-none">
+                <div class="sm:px-8 text-left sm:text-center lg:text-left xl:pr-16 md:max-w-2xl md:mx-auto xl:max-w-none">
                     <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">
                         About Venerion
                     </h2>
@@ -116,11 +116,12 @@
 
 
     <section class="py-10 bg-white sm:py-16 lg:py-24">
-        <div class="max-w-lg sm:max-w-xl mx-auto text-center pb-24">
-            <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Our services</h2>
-        </div>
+
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 gap-24 lg:grid-cols-3 lg:gap-y-16">
+            <div class="lg:px-8 text-left lg:text-center xl:pr-16  md:mx-auto xl:max-w-none">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Our services</h2>
+            </div>
+            <div class="grid grid-cols-1 gap-20 md:grid-cols-3 lg:gap-y-16 mt-6 lg:mt-16">
                 <!-- USP item -->
                 <div>
                     <div class="relative flex items-center justify-start mx-auto">
@@ -165,12 +166,31 @@
 
 
 
+    <section class="relative py-12 overflow-hidden sm:py-16 lg:mt-10 bg-tertiary_bg">
+        <!-- container for the whole content -->
+        <div class="px-4 mx-auto max-w-xl sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center gap-y-6">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Ready to collaborate?</h2>
+                <p class="text-center">Our team is ready to collaborate with you to develop customized RF solutions that meet your unique needs.</p>
+                <a href="">
+                    <button class="hover:bg-gray-700 inline-flex px-5 py-3 bg-gray-900 rounded-xl">
+                        <p class="text-base font-bold antialiased text-white">Contact us</p>
+                    </button>
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- footer -->
     <footer class="bg-gray-50">
         <div class="w-full xl:container mx-auto p-4 py-8 md:px-6 ">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <a href="" class="flex items-center mb-8 sm:mb-0">
                     <img src="assets/venerion-logo-green.png" class="h-6 mr-3" alt="Flowbite Logo" />
-                    
+
                 </a>
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
                     <li>
@@ -185,15 +205,15 @@
                     <li>
                         <a href="#" class="mr-4 hover:underline md:mr-6 ">Imprint</a>
                     </li>
-                    
+
                 </ul>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Venerion GmbH</a>. All Rights Reserved.</span>
         </div>
     </footer>
-    
-    
+
+
     <script>
         const menuBtn = document.getElementById('menu-btn');
         const nav = document.getElementById('menu');
