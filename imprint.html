@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="dist/output.css" rel="stylesheet">
+    <title> Imprint - Venerion </title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <div class="absolute w-full bg-transparent z-10">
+        <nav class="relative mx-auto px-4 sm:px-8 lg:px-8 py-8 max-w-screen-xl text-lg font-medium text-white bg-transparent antialiased">
+            <div class="flex items-center justify-between md:max-w-7xl mx-auto">
+                <!-- Logo -->
+                <div class="">
+                    <a href="index.html" class="flex">
+                        <img src="assets/venerion-logo.png" class="h-8" alt="Venerion Logo" />
+                    </a>
+                </div>
+                <!-- Menu items -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="projects.html" class="hover:underline">Projects</a>
+                    <a href="about-us.html" class="hover:underline">About us</a>
+                    <a href="mailto:info@venerion.com" class="hover:underline">Contact</a>
+                </div>
+                <!-- burger svg -->
+                <button class="md:hidden" id="menu-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#ffffff" d="M3.75 18C3.53333 18 3.35417 17.9292 3.2125 17.7875C3.07083 17.6458 3 17.4667 3 17.25C3 17.0333 3.07083 16.8542 3.2125 16.7125C3.35417 16.5708 3.53333 16.5 3.75 16.5H20.25C20.4667 16.5 20.6458 16.5708 20.7875 16.7125C20.9292 16.8542 21 17.0333 21 17.25C21 17.4667 20.9292 17.6458 20.7875 17.7875C20.6458 17.9292 20.4667 18 20.25 18H3.75ZM3.75 12.75C3.53333 12.75 3.35417 12.6792 3.2125 12.5375C3.07083 12.3958 3 12.2167 3 12C3 11.7833 3.07083 11.6042 3.2125 11.4625C3.35417 11.3208 3.53333 11.25 3.75 11.25H20.25C20.4667 11.25 20.6458 11.3208 20.7875 11.4625C20.9292 11.6042 21 11.7833 21 12C21 12.2167 20.9292 12.3958 20.7875 12.5375C20.6458 12.6792 20.4667 12.75 20.25 12.75H3.75ZM3.75 7.5C3.53333 7.5 3.35417 7.42917 3.2125 7.2875C3.07083 7.14583 3 6.96667 3 6.75C3 6.53333 3.07083 6.35417 3.2125 6.2125C3.35417 6.07083 3.53333 6 3.75 6H20.25C20.4667 6 20.6458 6.07083 20.7875 6.2125C20.9292 6.35417 21 6.53333 21 6.75C21 6.96667 20.9292 7.14583 20.7875 7.2875C20.6458 7.42917 20.4667 7.5 20.25 7.5H3.75Z" fill="#1C1917" />
+                    </svg>
+                </button>
+            </div>
+            <!-- burger items -->
+            <div class="md:hidden">
+                <div id="menu" class="flex-col items-center py-8 space-y-8 bg-opacity-90 bg-black w-auto left-0 right-0 hidden absolute z-10">
+                    <a href="projects.html" class="hover:underline">Projects</a>
+                    <a href="about-us.html" class="hover:underline">About us</a>
+                    <a href="mailto:info@venerion.com" class="hover:underline">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero section -->
+    <section class="relative w-full h-[300px]">
+        <img src="assets/bg-venerion.png" class="object-cover w-full h-full absolute" alt="venerion-bg" />
+        <section class="relative pt-[200px] sm:pt-[200px] w-full">
+            <!-- container for the whole content -->
+            <div class=" mx-auto max-w-7xl px-4 sm:px-8 text-shadow sm:text-shadow-none">
+                <p class="text-4xl lg:text-5xl font-light antialiased text-white max-w-sm lg:max-w-lg">
+                    Imprint
+                </p>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Section 1 -->
+    <section class="relative py-12 overflow-hidden sm:py-16 lg:mt-10">
+        <!-- container for the whole content -->
+        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <ul>
+                <li><b>Legal name of the company:</b> Venerion GmbH</li>
+                <li><b>Address:</b> Margarethe-Selenka-Str. 16 81737 Munich Germany</li>
+                <li><b>Phone number:</b> +49 173 327 76 16</li>
+                <li><b>Email:</b> info@venerion.com</li>
+                <li><b>Responsible person:</b> Savas Karadag</li>
+                <li><b>VAT number:</b> 12345</li>
+                <li><b>Registry Court:</b> Munich</li>
+                <li><b>Commercial Register Number:</b> 12345</li>
+              </ul>
+        </div>
+    </section>
+
+
+
+    <!-- ready to collaborate -->
+    <section class="relative py-12 overflow-hidden sm:py-16 lg:mt-10 bg-tertiary_bg">
+        <!-- container for the whole content -->
+        <div class="px-4 mx-auto max-w-xl sm:px-6 lg:px-8">
+            <div class="flex flex-col items-center gap-y-6">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Ready to collaborate?</h2>
+                <p class="text-center">Our team is ready to collaborate with you to develop customized RF solutions that meet your unique needs.</p>
+                <a href="mailto:info@venerion.com">
+                    <button class="hover:bg-gray-700 inline-flex px-5 py-3 bg-gray-900 rounded-xl">
+                        <p class="text-base font-bold antialiased text-white">Contact us</p>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="bg-gray-50">
+        <div class="w-full xl:container mx-auto p-4 py-8 md:px-6 ">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a href="index.html" class="flex items-center mb-8 sm:mb-0">
+                    <img src="assets/venerion-logo-green.png" class="h-6 mr-3" alt="Flowbite Logo" />
+
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
+                    <li>
+                        <a href="projects.html" class="mr-4 hover:underline md:mr-6">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html" class="mr-4 hover:underline md:mr-6">About us</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@venerion.com" class="mr-4 hover:underline md:mr-6">Contact</a>
+                    </li>
+                    <li>
+                        <a href="imprint.html" class="mr-4 hover:underline md:mr-6">Imprint</a>
+                    </li>
+
+                </ul>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Venerion GmbH</a>. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.getElementById('menu');
+
+        menuBtn.addEventListener('click', function () {
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('flex');
+        })
+    </script>
+</body>
+</html>
