@@ -627,6 +627,10 @@ video {
   right: 0px;
 }
 
+.top-0{
+  top: 0px;
+}
+
 .isolate{
   isolation: isolate;
 }
@@ -701,20 +705,16 @@ video {
   margin-top: 0.75rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mt-1{
-  margin-top: 0.25rem;
-}
-
-.mt-4{
-  margin-top: 1rem;
 }
 
 .box-border{
@@ -809,6 +809,14 @@ video {
   display: none;
 }
 
+.aspect-video{
+  aspect-ratio: 16 / 9;
+}
+
+.h-0{
+  height: 0px;
+}
+
 .h-6{
   height: 1.5rem;
 }
@@ -829,6 +837,10 @@ video {
   height: 100%;
 }
 
+.w-2\/3{
+  width: 66.666667%;
+}
+
 .w-auto{
   width: auto;
 }
@@ -839,6 +851,10 @@ video {
 
 .max-w-7xl{
   max-width: 80rem;
+}
+
+.max-w-full{
+  max-width: 100%;
 }
 
 .max-w-screen-xl{
@@ -1353,6 +1369,14 @@ video {
   gap: 5rem;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
 .gap-y-6{
   row-gap: 1.5rem;
 }
@@ -1778,11 +1802,6 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.bg-red-800{
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
-}
-
 .bg-tertiary_bg{
   --tw-bg-opacity: 1;
   background-color: rgb(241 246 241 / var(--tw-bg-opacity));
@@ -1945,11 +1964,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pt-\[200px\]{
   padding-top: 200px;
 }
@@ -2038,11 +2052,6 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold{
@@ -2591,11 +2600,6 @@ video {
     --tw-border-opacity: 1;
     border-color: rgb(55 65 81 / var(--tw-border-opacity));
   }
-
-  .dark\:text-gray-400{
-    --tw-text-opacity: 1;
-    color: rgb(156 163 175 / var(--tw-text-opacity));
-  }
 }
 
 @media (min-width: 640px){
@@ -2608,12 +2612,12 @@ video {
     margin-bottom: 0px;
   }
 
-  .sm\:mt-12{
-    margin-top: 3rem;
-  }
-
   .sm\:mt-0{
     margin-top: 0px;
+  }
+
+  .sm\:mt-12{
+    margin-top: 3rem;
   }
 
   .sm\:flex{
@@ -2764,6 +2768,10 @@ video {
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .lg\:gap-20{
+    gap: 5rem;
+  }
+
   .lg\:gap-y-16{
     row-gap: 4rem;
   }
@@ -2771,6 +2779,11 @@ video {
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-16{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .lg\:py-24{
